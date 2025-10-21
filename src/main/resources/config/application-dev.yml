@@ -13,6 +13,13 @@
 # http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
 # ===================================================================
 
+backend:
+  endPoint: http://10.1.8.192:8090/GWCORE/service.asmx
+  iso:
+    socketHost: 10.1.201.2
+    socketPort: 1999
+    timeout: 30000
+
 logging:
   level:
     ROOT: DEBUG
